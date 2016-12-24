@@ -12,7 +12,7 @@ pre_ans = numpy.radians(80)
 csvfile = open('link2.csv','a')
 csvfile.write("a={0},b={1},c={2},d={3}\r\n".format(a,b,c,d))
 csvfile.write("phi,theta,alpha,torque\r\n")
-for phi_deg in range(78,80):
+for phi_deg in range(78,82):
 	phi = numpy.radians(phi_deg)
 	s_gamma = sin(gamma)
 	c_gamma = cos(gamma)
