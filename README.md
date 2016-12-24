@@ -1,4 +1,4 @@
-Things you may want to cover:
+Things you may want to cover:(anaconda3)
 
 *Python version 3.x
 
