@@ -8,7 +8,7 @@ b = 90 #intermediate
 c = 52 #output
 d = 90 #fixed)
 gamma = atan(3/4)
-pre_ans = numpy.radians(80)
+pre_ans = numpy.radians(79)
 csvfile = open('link.csv','a')
 csvfile.write("a={0},b={1},c={2},d={3}\r\n".format(a,b,c,d))
 csvfile.write("phi,theta,alpha,torque\r\n")
